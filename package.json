@@ -9,8 +9,15 @@
     "elysia": "latest"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.2.1",
-    "bun-types": "latest"
+    "@typescript-eslint/eslint-plugin": "^6.7.0",
+    "@typescript-eslint/parser": "^6.7.0",
+    "bun-types": "latest",
+    "eslint": "^8.49.0",
+    "typescript": "^5.2.2"
   },
-  "module": "src/index.js"
+  "module": "src/index.js",
+  "type": "module",
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
 }
